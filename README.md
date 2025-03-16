@@ -1,24 +1,18 @@
-ISPOLINK AUTO COMPLETE TASK + DAILY
+# ISPOLINK AUTO COMPLETE TASK + DAILY
 
-Support Multi Account + Proxies
+**Support Multi Account + Proxies**
 
-⬇️ Install Depend
+## Description
 
-npm install axios node-cron fs https-proxy-agent socks-proxy-agent readline
+This script automates tasks and daily operations with support for multiple accounts and proxies. It reads your token, proxies, and wallet addresses, and then performs actions on your behalf. It is designed to work with multi-account setups and proxy usage for improved security and efficiency.
 
-⬇️ Put your cookie
+## Installation
 
-nano token.txt
+Follow these steps to set up and run the bot.
 
-⬇️ Fill Your Proxies
+### 1. **Install Dependencies**
 
-nano proxies.txt
+   First, you need to install the required dependencies. Run the following command in your terminal:
 
-⬇️ Fill Wallets Address if multiaccounts
-
-nano wallets.txt
-
-⬇️ Run Bot
-
-node ispo.js
-
+   ```bash
+   npm install axios node-cron fs https-proxy-agent socks-proxy-agent readline
